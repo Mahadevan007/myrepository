@@ -5,4 +5,7 @@ while(num > 0):
     rem = num % 10
     summ = summ + rem
     num = num/10
-return temp == summ
+if temp == summ:
+    print("yes")
+else:
+    print("no")
