@@ -1,6 +1,4 @@
-a = input()
-b = input()
-c = input()
+[a,b,c] = input()
 if a>b:
   if a>c:
     print(a)
