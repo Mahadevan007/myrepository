@@ -1,6 +1,6 @@
 charc = input()
 vowels = ["a","e","i","o","u"]
 if charc in vowels:
-    print("Vowel)
+    print("Vowel")
 else:
     print("Consonant")
