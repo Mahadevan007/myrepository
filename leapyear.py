@@ -1,4 +1,4 @@
-num = input()
+num = int(input())
 if num%4 or num%100:
   print("Yes")
 else:
