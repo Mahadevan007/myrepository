@@ -1,4 +1,4 @@
-num = input()
+num = int(input())
 sum = 0
 while num<0:
   rem = num%10
