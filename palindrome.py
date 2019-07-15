@@ -1,4 +1,4 @@
-num = input()
+num = int(input())
 temp = num
 summ = 0
 while(num > 0):
