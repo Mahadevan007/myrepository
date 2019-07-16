@@ -1,5 +1,9 @@
 num = int(input())
-if num==2 or num%2!=0:
+count = 0
+for i in range(0,num):
+	if i%num==0:
+		count = count + 1
+if count==2:
 	print("yes")
 else:
 	print("no")
