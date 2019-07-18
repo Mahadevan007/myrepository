@@ -1,5 +1,4 @@
-string1 = input()
-string2 = input()
+string1,string2 = map(str,input().split())
 if string1==string2:
     print(string1)
 elif string1>string2:
