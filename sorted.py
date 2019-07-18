@@ -1,2 +1,3 @@
-mylist = [2,1,3]
+noofele = int(intput())
+mylist = list(map(int,input().split()))
 print(sorted(mylist))
