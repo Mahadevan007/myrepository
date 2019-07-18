@@ -1,6 +1,6 @@
 start, end = map(int,input().split())
 
-for num in range(start,end + 1):
+for num in range(start,end):
    sum = 0 
    temp = num
    while temp > 0:
