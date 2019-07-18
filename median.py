@@ -1,3 +1,4 @@
+n = int(input())
 mylist = list(map(int,input().split()))
 mylist = sorted(mylist)
 if n%2==0:
