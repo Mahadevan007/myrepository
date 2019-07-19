@@ -6,7 +6,6 @@ for i in mylist:
         mydict[i] += 1
     else:
         mydict[i] = 1
-print(mydict)
 anslist = []
 for i in mydict:
     if mydict[i]>1:
