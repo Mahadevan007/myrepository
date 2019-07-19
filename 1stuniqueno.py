@@ -6,7 +6,7 @@ for i in mylist:
     if i in mydict:
         mydict[i] += 1
         if mydict[i]>=2:
-            anslist.append(mydict[i])
+            anslist.append(i)
         else:
             pass
     else:
