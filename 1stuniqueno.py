@@ -12,7 +12,7 @@ for i in mylist:
     else:
         mydict[i] = 1
 if len(anslist)==0:
-    print('uniquwe')
+    print('unique')
 else:
     print(anslist[0])
         
