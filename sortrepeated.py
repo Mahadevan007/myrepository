@@ -11,4 +11,7 @@ for i in mydict:
     if mydict[i]>1:
         anslist.append(i)
 anslist = sorted(anslist)
-print(*anslist)
+if len(anslist)>0:
+	print(*anslist)
+else:
+	print("unique")
